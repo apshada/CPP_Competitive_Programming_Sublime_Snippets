@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+	void graphdis(){
+ 
+		for (int i = 1; i <= n ; ++i)
+		{
+			cout<<"list for "<<i<<" ->  ";
+			for (int j = 0; j < v[i].size(); ++j)
+			{
+				if(j == v[i].size() -1){
+					cout<<v[i][j]<<endl;
+				}
+				else{
+					cout<<v[i][j]<<"->";
+				}
+			}
+		}
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>graphdis</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
